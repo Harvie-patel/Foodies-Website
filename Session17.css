@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Lobster&family=Pacifico&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Pacifico', cursive;
+}
+
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: orange;
+    color: blanchedalmond;
+    height: 70px;
+    font-size: 35px;
+}
+.links a{
+    text-decoration: none;
+    color: blanchedalmond;
+    margin-right: 20px;
+    font-size:  30px;
+}
+
+    .links a:hover{
+    color: red;
+    font-size: 40px;
+    }
+
+.FoodItems{
+    height: 450px;
+    text-align: center;
+    flex: 1;
+}
+
+.FoodItems img{
+    height: 50%;
+    padding: 2.5px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer{
+    background-color: #F76E11;
+    text-align: center;
+    height: 80px;
+    padding: 40px;
+    color: blanchedalmond;
+}
+
+.food{
+    color: orangered;
+}
+
+.form{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 100px;
+}
+
+.form{
+    background-color: peru;
+}
+
+.submit{
+    border-radius: 10px;
+    background-color: coral;
+}
+
+.pizza{
+    display: flex;
+    color: orangered;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.button{
+    background-color: lime;
+    color: white;
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
